@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<title>Stamesha Bello</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-white">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="resources/stamesha_bello_portfolio_image.jpeg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
+    <h1 class="w3-jumbo">Stamesha Bello</h1>
+    <p>Aspiring Software Engineer</p>
+    <img src="resources/stamesha_bello_portfolio_image.jpeg" alt="Stamesha Bello" class="w3-image" width="1920" height="1080">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-black">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>
+    Hello, my name is Stamesha Bello. I am a graduate student at Northeastern University and am currently a candidate for a Master's of Science in Computer Science.
+    I received my undergraduate degree in Biology -- as opposed to Computer Science -- as I'd originally planned to become a doctor. However, as I gained more knowledge of
+    and experience in the medical field, I began to have my doubts. Only when I served as a virtual medical scribe, did I finally realize what I'd truly desired. I found the
+    app used to write medical notes -- what it was and how it could be improved -- to be of much more interest than the day-to-day activities of the providers I'd shadowed.
+    The medical visits I'd witnessed grew to be somewhat monotonous, while the behind-the-scenes use of AI and other technologies were far more fascinating. Through the help of
+    Northeastern's ALIGN program, I was able to make a necessary career shift, and I've never looked back since. I am currently seeking an internship that will push
+    my limits and cement my place in CS.
+    </p>
+    <h3 class="w3-padding-16 w3-text-black">My Skills</h3>
+    
+    <div class="w3-padding-16 w3-half">
+        <img src="resources/MoveMe_screenshot.JPEG" style="width:100%; margin-bottom: 0;">
+        <p style="padding:20px; border-style:hidden solid solid solid;
+        margin-top: 0; margin-bottom: 0" align="center">
+            Mobile App Development</p>
+
+        <img src="resources/Peach_brand_design.PNG" style="width:100%; margin-top:0;
+        margin-bottom:0">
+        <p style="padding: 20px; margin-top:0; border-style: hidden solid solid solid;"
+        align="center">
+            Design</p>
+    </div>
+
+    <div class="w3-half">
+        <p style="margin-top:100px; margin-bottom:0px; padding: 20px;
+        border-style: solid solid hidden solid" align="center">Software Development</p>
+        <img src="resources/push_relabel_code_snippet.png" style="width:100%; margin-top:0">
+    </div>
+
+    <div style="clear:both"></div>
+    <br />
+
+    <a href="resources/resume_stamesha_bello.pdf" target="_blank"
+    class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i> Download Resume
+    </a>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-black">Technologies Used</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class = "w3-row-padding w3-twothird" style="margin: 0 -16px">
+        <table>
+            <tr>
+                <td>
+                <h3 class="w3-text-dark-grey">Programming Languages</h3>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                <img src="resources/python_logo.png" style="height:100px">
+                <img src="resources/java_logo.png" style="height:100px">
+                <img src="resources/c_programming_language_logo.png" style="height:100px">
+                <img src="resources/r_programming_language_logo.svg" style="height:100px">
+                <img src="resources/sqlite_logo.png" style="height:100px">
+                <img src="resources/mysql-logo.png" style="height:100px">
+                </td>
+            </tr>
+        </table>
+    </div>
+        
+    <div class = "w3-row-padding w3-third" style="margin: 0 16px 0 -16px">
+        <table>
+            <tr>
+                <td>
+                <h3 class="w3-text-dark-grey">IDEs</h3>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                <img src="resources/visual-studio-code-icons/vscode.png" style="height:100px">
+                <img src="resources/processing_2021_logo.svg" style="height:100px">
+                <img src="resources/intellij_logo.png" style="height:100px">
+                <img src="resources/android_studio_logo.png" style="height:100px">
+                </td>
+            </tr>
+        </table>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+  
+  <div style="clear:both"></div>
+
+  <!-- Footer -->
+  <div class="w3-padding-large">
+  <br/>
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.linkedin.com/in/stamesha-bello/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p class="w3-medium">Adapted from and powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+  </div>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
